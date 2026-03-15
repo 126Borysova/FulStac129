@@ -1,5 +1,4 @@
- FulStac129
-<doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
       <meta charset="UTF-8" />
@@ -22,7 +21,7 @@
                 <address>
                 <ul>
                   <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                  <li><a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>       
+                  <li><a href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li>       
                 </ul>
                 </address>
         </header>
@@ -31,7 +30,7 @@
             <h1>
                 Effective Solutions for Your Business
             </h1>
-            <type=button>Order Service</type=button>
+            <button type="button">Order Service</button>
         </section>
         <section>
             <ul>
@@ -62,9 +61,7 @@
             </ul>
         </section>
         <section>
-             <h2>
-             Our Team
-             </h2>
+             <h2>Our Team</h2>
             <ul>
                 <li>
                     <img 
@@ -122,4 +119,4 @@
         <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>  
     </body>
-</html>#
+</html>
