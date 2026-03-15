@@ -1,5 +1,5 @@
-# FulStac129
-<!doctype html>
+ FulStac129
+<doctype html>
 <html lang="en">
     <head>
       <meta charset="UTF-8" />
@@ -18,20 +18,20 @@
                   <li><a href="index.html">Portfolio</a></li>
                   <li><a href="index.html">Contacts</a></li>
                 </ul>
+            </nav>
                 <address>
                 <ul>
                   <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                   <li><a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>       
                 </ul>
                 </address>
-            </nav>
         </header>
         <main>
         <section>
             <h1>
                 Effective Solutions for Your Business
             </h1>
-            <button>Order Service</button>
+            <type=button>Order Service</type=button>
         </section>
         <section>
             <ul>
@@ -62,11 +62,13 @@
             </ul>
         </section>
         <section>
-            <h2>Our Team</h2>
+             <h2>
+             Our Team
+             </h2>
             <ul>
                 <li>
                     <img 
-                      src="img (2).png"
+                      src="./images/img (2).png"
                       width="264"
                       height="260"
                       alt="foto Mark Guerrero"
@@ -78,7 +80,7 @@
                 </li>
                 <li>
                     <img 
-                      src="img (1).png"
+                      src="./images/img (1).png"
                       width="264"
                       height="260"
                       alt="foto Frontend Developer"
@@ -90,7 +92,7 @@
                 </li>
                 <li>
                     <img 
-                      src="img (3).png"
+                      src="./images/img (3).png"
                       width="264"
                       height="260"
                       alt="foto Camila Garcia"
@@ -102,7 +104,7 @@
                 </li>
                 <li>
                     <img 
-                      src="img (4).png"
+                      src="./images/img (4).png"
                       width="264"
                       height="260"
                       alt="foto Daniel Wilson"
@@ -120,4 +122,4 @@
         <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>  
     </body>
-</html>
+</html>#
