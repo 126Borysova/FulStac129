@@ -65,7 +65,7 @@
             <ul>
                 <li>
                     <img 
-                      src="./images/img (2).png"
+                      src="./images/img2.png"
                       width="264"
                       height="260"
                       alt="foto Mark Guerrero"
@@ -77,7 +77,7 @@
                 </li>
                 <li>
                     <img 
-                      src="./images/img (1).png"
+                      src="./images/img1.png"
                       width="264"
                       height="260"
                       alt="foto Frontend Developer"
@@ -89,7 +89,7 @@
                 </li>
                 <li>
                     <img 
-                      src="./images/img (3).png"
+                      src="./images/img3.png"
                       width="264"
                       height="260"
                       alt="foto Camila Garcia"
@@ -101,7 +101,7 @@
                 </li>
                 <li>
                     <img 
-                      src="./images/img (4).png"
+                      src="./images/img4.png"
                       width="264"
                       height="260"
                       alt="foto Daniel Wilson"
