@@ -64,20 +64,28 @@ a {
     font-style: normal;
 }
 
-.header-menu-item:hover {
-    color: #31d0aa;
+.header-menu-link:hover {
+    color: #404bbf;
 }
 
 .header-menu-link:focus {
-    color: #31d0aa;
+    color: #404bbf;
 }
 
-.address-item:hover {
-    color: #31d0aa;
+.address-mail:hover {
+    color: #404bbf;
 }
 
 .address-mail:focus {
-    color: #31d0aa;
+    color: #404bbf;
+}
+
+.address-phone:hover {
+    color: #404bbf;
+}
+
+.address-phone:focus {
+    color: #404bbf;
 }
 
 .button-link:hover {
@@ -135,6 +143,7 @@ a {
 }
 
 .our {
+     background-color: #f4f4fd;
 }
 
 .our-title {
@@ -150,6 +159,7 @@ a {
 }
 
 .our-item {
+    background-color:#fff;;
 }
 
 .our-text {
