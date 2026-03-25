@@ -1,5 +1,9 @@
-body{
+body {
     font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #fff;
 }
 
 ul {
@@ -14,7 +18,7 @@ a {
     font-style: normal;
 }
 
-.button {
+.button link {
     cursor: pointer;
     font-family: inherit;
 }
@@ -93,7 +97,7 @@ a {
 }
 
 .button-link:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
 }
 
 .hero {
@@ -163,7 +167,7 @@ a {
 }
 
 .our-item {
-    background-color:#fff;;
+    background-color:#fff;
 }
 
 .our-text {
