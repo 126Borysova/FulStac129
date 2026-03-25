@@ -22,7 +22,7 @@ a {
 .header-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -88,8 +88,12 @@ a {
     color: #404bbf;
 }
 
-.button-link:hover {
+.button-link:hover{
     background-color: #404bbf;
+}
+
+.button-link:focus {
+    background-color: #31d0aa;
 }
 
 .hero {
@@ -217,7 +221,7 @@ a {
 .footer-link {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
