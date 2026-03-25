@@ -4,6 +4,7 @@ body {
 
 body {
     background-color: #fff;
+    color: #434455;
 }
 
 ul {
@@ -18,7 +19,7 @@ a {
     font-style: normal;
 }
 
-.button link {
+.button-link {
     cursor: pointer;
     font-family: inherit;
 }
