@@ -95,7 +95,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    gap: 0;
     margin-right: 76px;
 }
 
@@ -137,9 +136,6 @@ img {
     color: #434455;
     padding: 24px 0;
     display: block;
-}
-
-.address-mail {
     font-style: normal;
 }
 
@@ -151,9 +147,6 @@ img {
     color: #434455;
     padding: 24px 0;
     display: block;
-}
-
-.address-phone {
     font-style: normal;
 }
 
@@ -370,7 +363,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
+    margin-bottom: 8px;
 }
 .portfolio-item-text {
     font-weight: 400;
