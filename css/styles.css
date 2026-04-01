@@ -74,7 +74,7 @@ img {
 }
 
 .header {
-    padding-block: 24px;
+    border: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -303,8 +303,8 @@ img {
 }
 
 .our-content {
-    padding: 32px 0;
-}
+    padding: 32px 16px;
+    }
 
 .our-text {
     font-weight: 500;
@@ -313,7 +313,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding: 32px 0 8px;
+    padding: 8px;
 }
 
 .our-item-text {
@@ -346,7 +346,7 @@ img {
     padding: 0 0 120px;
     display: flex;
     flex-wrap: wrap;
-    gap :24px;
+    gap :48px;
 }
 
 .portfolio-item {
@@ -356,7 +356,6 @@ img {
 .portfolio-content {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    width: 360px;
     border-top: none;
     }
 
@@ -392,7 +391,6 @@ img {
 .footer {
      background-color: #2e2f42;
      padding-block: 100px;
-     padding-left: 156px;
 }
 
 .footer-navigation {
@@ -400,9 +398,12 @@ img {
 
 .footer-link {
     font-family: "Raleway", sans-serif;
+    display: inline-block;
+     margin-bottom: 24px;
 }
 
 .footer-logo-w {
+
 }
 
 .footer-text {
@@ -411,4 +412,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px
 }
