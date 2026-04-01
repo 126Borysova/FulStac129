@@ -349,7 +349,6 @@ img {
 }
 
 .portfolio-list {
-    padding: 0 0 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
