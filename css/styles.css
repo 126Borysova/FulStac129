@@ -173,11 +173,11 @@ img {
 .address-phone:focus {
     color: #404bbf;
 }
-.button-link:hover {
+.hero-button:hover {
     background-color: #404bbf;
 }
 
-.button-link:focus {
+.hero-button:focus {
     background-color: #404bbf;
 }
 
@@ -357,8 +357,8 @@ img {
     border-top: none;
     }
 
-.portfolio-text
-    {font-weight: 500;
+.portfolio-text {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
