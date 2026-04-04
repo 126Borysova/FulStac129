@@ -1,8 +1,5 @@
 body {
     font-family: "Roboto", sans-serif;
-}
-
-body {
     background-color: #fff;
     color: #434455;
 }
@@ -10,7 +7,7 @@ body {
 ul {
     list-style-type: none;
     margin-block: 0;
-    padding-left: 0;
+    padding: 0;
 }
 
 p,
@@ -20,7 +17,7 @@ h3,
 h4,
 h5,
 h6{
-    margin-block: 0;
+    margin: 0;
 }
 
 a {
@@ -294,6 +291,7 @@ img {
     text-align: center;
     color: #2e2f42;
     padding: 0;
+    margin-bottom: 8px;
 }
 
 .our-item-text {
@@ -305,10 +303,6 @@ img {
     color: #434455;
     height: auto;
     width: auto;
-}
-
-.our-text {
-    margin-bottom: 8px;
 }
 
 .portfolio {
