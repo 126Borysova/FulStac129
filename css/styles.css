@@ -120,7 +120,7 @@ img {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: -1px;
     width: 100%;
     height: 4px;
     background-color: #404bbf;
@@ -201,7 +201,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -260,7 +260,7 @@ img {
     align-items: center;
     padding-bottom: 0;
     height: 112px;
-    width: 264;
+    width: 264px;
     margin-bottom: 8px;
 }
 
@@ -362,6 +362,27 @@ img {
 .our-social-icon {
     fill: #f4f4fd;
     display: block;
+}
+
+.our-social-link {
+    display: flex;              /* щоб центрити іконку */
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: #4d5ae5;  /* основний колір */
+    border-radius: 50%;         /* робить коло */
+
+    color: #ffffff;             /* для SVG через currentColor */
+    transition: background-color 250ms ease;
+
+}
+
+.our-social-link:hover,
+.our-social-link:focus {
+    background-color: #404bbf;
 }
 
 .portfolio {
