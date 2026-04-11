@@ -114,6 +114,7 @@ img {
     padding: 24px 0;
     display: block;
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link.current::after {
@@ -146,6 +147,7 @@ img {
     padding: 24px 0;
     display: block;
     font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-phone {
@@ -157,6 +159,7 @@ img {
     padding: 24px 0;
     display: block;
     font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:hover {
@@ -235,6 +238,7 @@ img {
     height: auto;
     border: none;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .features {
@@ -255,18 +259,19 @@ img {
     background-color: #f4f4fd;
     border: 1px solid #8e8f99;
     border-radius: 4px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-bottom: 0;
     height: 112px;
-    width: 264px;
+    width: 100%;
     margin-bottom: 8px;
 }
 
 .features-icon {
-    margin-top: 24px;
-    margin-bottom: 100px 24px;
+    display: block;
 }  
 
 .features-text {
@@ -376,13 +381,13 @@ img {
     border-radius: 50%;         /* робить коло */
 
     color: #ffffff;             /* для SVG через currentColor */
-    transition: background-color 250ms ease;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .our-social-link:hover,
 .our-social-link:focus {
-    background-color: #404bbf;
+    background-color: aqua;
 }
 
 .portfolio {
@@ -454,9 +459,13 @@ img {
      padding-block: 100px;
 }
 
+.footer-item-ul {
+    width: 264px;
+    height: 112px;
+}
+
 .footer-container {
     display: flex;
-    flex-direction: column;
     gap: 16px; 
 }
 
@@ -474,3 +483,56 @@ img {
     color: #f4f4fd;
     max-width: 264px
 }
+
+.container-social {
+    display: flex;
+    align-items: flex-start;
+    gap: 120px;
+}
+
+.footer-left {
+    max-width: 264px;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer-item-social {
+    width: 208px;
+    height: 80px;
+} 
+
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footer-social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer .our-social-list {
+    gap: 16px;
+}
+
+.footer .our-social-link:hover,
+.footer .our-social-link:focus {
+    background-color: #31d0aa;
+}
+
+
+
+
