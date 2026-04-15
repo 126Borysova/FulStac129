@@ -381,11 +381,6 @@ img {
 .our-social-link:hover,
 .our-social-link:focus {
     background-color: #404bbf;
-    color: #ffffff;
-}
-
-.our-social-link:hover {
-    color: #ffffff;
 }
 
 .portfolio {
